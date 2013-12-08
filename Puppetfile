@@ -57,7 +57,9 @@ github "xquartz",    "1.1.0"
 # https://github.com/boxen.
 
 github "osx",        "2.2.0"
+github "alfred",     "1.1.7"
 github "appcleaner", "1.0.0"
+github "chrome",     "1.1.2"
 github "dropbox",    "1.2.0"
 github "better_touch_tools", "1.0.0"
 github "firefox",    "1.1.5"
