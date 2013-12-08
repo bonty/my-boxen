@@ -146,7 +146,7 @@ class people::bonty {
     command => "env -i zsh -c 'source /opt/boxen/env.sh && RBENV_VERSION=${ruby_version} homesick clone bonty/dotfiles && RBENV_VERSION=${ruby_version} homesick pull dotfiles && yes | RBENV_VERSION=${ruby_version} homesick symlink dotfiles'",
     provider => 'shell',
     cwd => $home,
-    require => [ Ruby::Gem["homesick for ${ruby_version}"], Package['zsh'] ]
+    require => [ Ruby::Gem["homesick for ${ruby_version}"], Osx_chsh[$::luser] ]
   }
 
   # mysql
