@@ -122,6 +122,16 @@ class people::bonty {
     ]:
   }
 
+  # install ricty
+  class ricty {
+    homebrew::tap { 'sanemat/font': }
+    package { 'ricty': ; }
+  }
+  include ricty
+  exec { "cp -f ${boxen::config::homebrewdir}/Cellar/ricty/3.2.2/share/fonts/Ricty*.ttf ${home}/Library/Fonts/ && fc-cache -vf":
+    require => Package['ricty'],
+  }
+
   # emacs
   package {
     'emacs':
