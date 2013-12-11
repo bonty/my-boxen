@@ -232,11 +232,11 @@ class people::bonty {
     'GoogleJapaneseInput':
       source => "http://dl.google.com/japanese-ime/latest/GoogleJapaneseInput.dmg",
       provider => pkgdmg;
-    'Bartender':
-      source => 'http://www.macbartender.com/Demo/Bartender.zip',
-      provider => compressed_app;
     'PCKeyboardHack':
       source => 'https://pqrs.org/macosx/keyremap4macbook/files/PCKeyboardHack-10.4.0.dmg',
       provider => pkgdmg;
+    'Reflector':
+      source => 'http://download.airsquirrels.com/Reflector/Mac/Reflector.dmg',
+      provicer => pkgdmg;
   }
 }
