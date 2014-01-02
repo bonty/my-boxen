@@ -237,6 +237,6 @@ class people::bonty {
       provider => pkgdmg;
     'Reflector':
       source => 'http://download.airsquirrels.com/Reflector/Mac/Reflector.dmg',
-      provicer => pkgdmg;
+      provider => pkgdmg;
   }
 }
