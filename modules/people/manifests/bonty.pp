@@ -50,26 +50,29 @@ class people::bonty {
 
   # keyremap4macbook
   include keyremap4macbook::login_item
-  keyremap4macbook::remap { 'space2shiftL_space_fnspace': }
-  keyremap4macbook::cli { 'enable option.emacsmode_controlD': }
-  keyremap4macbook::cli { 'enable option.emacsmode_controlH': }
-  keyremap4macbook::cli { 'enable option.emacsmode_controlI': }
-  keyremap4macbook::cli { 'enable option.emacsmode_controlLeftbracket': }
-  keyremap4macbook::remap { 'controlJ2enter': }
-  keyremap4macbook::cli { 'enable option.emacsmode_controlM': }
-  keyremap4macbook::cli { 'enable option.emacsmode_controlV': }
-  keyremap4macbook::cli { 'enable option.emacsmode_commandV': }
-  keyremap4macbook::cli { 'enable option.emacsmode_controlY': }
-  keyremap4macbook::cli { 'enable option.emacsmode_controlAE': }
-  keyremap4macbook::cli { 'enable option.emacsmode_controlK': }
-  keyremap4macbook::cli { 'enable option.emacsmode_controlW': }
-  keyremap4macbook::cli { 'enable option.emacsmode_OptionWCopy': }
-  keyremap4macbook::cli { 'enable option.emacsmode_optionLtGt': }
-  keyremap4macbook::cli { 'enable option.emacsmode_controlSlash': }
-  keyremap4macbook::cli { 'enable option.emacsmode_controlS': }
-  keyremap4macbook::cli { 'enable option.emacsmode_ex_commandW': }
-  keyremap4macbook::remap { 'app_term_commandL2optionL_except_tab': }
-  keyremap4macbook::remap { 'jis_unify_kana_eisuu_to_commandR': }
+  class keyremap4macbook::myconfig {
+    keyremap4macbook::remap { 'space2shiftL_space_fnspace': }
+    keyremap4macbook::cli { 'enable option.emacsmode_controlD': }
+    keyremap4macbook::cli { 'enable option.emacsmode_controlH': }
+    keyremap4macbook::cli { 'enable option.emacsmode_controlI': }
+    keyremap4macbook::cli { 'enable option.emacsmode_controlLeftbracket': }
+    keyremap4macbook::remap { 'controlJ2enter': }
+    keyremap4macbook::cli { 'enable option.emacsmode_controlM': }
+    keyremap4macbook::cli { 'enable option.emacsmode_controlV': }
+    keyremap4macbook::cli { 'enable option.emacsmode_commandV': }
+    keyremap4macbook::cli { 'enable option.emacsmode_controlY': }
+    keyremap4macbook::cli { 'enable option.emacsmode_controlAE': }
+    keyremap4macbook::cli { 'enable option.emacsmode_controlK': }
+    keyremap4macbook::cli { 'enable option.emacsmode_controlW': }
+    keyremap4macbook::cli { 'enable option.emacsmode_OptionWCopy': }
+    keyremap4macbook::cli { 'enable option.emacsmode_optionLtGt': }
+    keyremap4macbook::cli { 'enable option.emacsmode_controlSlash': }
+    keyremap4macbook::cli { 'enable option.emacsmode_controlS': }
+    keyremap4macbook::cli { 'enable option.emacsmode_ex_commandW': }
+    keyremap4macbook::remap { 'app_term_commandL2optionL_except_tab': }
+    keyremap4macbook::remap { 'jis_unify_kana_eisuu_to_commandR': }
+  }
+  include keyremap4macbook::myconfig
 
   # iterm2
   iterm2::colors { 'my color scheme':
