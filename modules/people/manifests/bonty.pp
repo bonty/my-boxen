@@ -122,6 +122,10 @@ class people::bonty {
       'ec2-api-tools',
       'elb-tools',
       'rds-command-line-tools',
+
+      # perl
+      'plenv',
+      'perl-build',
     ]:
   }
 
