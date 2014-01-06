@@ -122,6 +122,8 @@ class people::bonty {
       'elb-tools',
       'rds-command-line-tools',
 
+      'mobile-shell',
+
       # perl
       'plenv',
       'perl-build',
