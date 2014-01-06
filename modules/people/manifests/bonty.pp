@@ -233,7 +233,7 @@ class people::bonty {
   package {
     'Elasticfox-ec2tag':
       source => 'https://s3-ap-northeast-1.amazonaws.com/elasticfox-ec2tag/Elasticfox-ec2tag_app-0.4.4.1.dmg',
-      provider => pkgdmg;
+      provider => appdmg;
     'GraffitiPot':
       source => 'http://crystaly.com/graffitipot/GraffitiPot_1.1.zip',
       provider => compressed_app;
