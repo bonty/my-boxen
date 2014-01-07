@@ -126,6 +126,9 @@ class people::bonty {
       # perl
       'plenv',
       'perl-build',
+
+      # python
+      'pyenv',
     ]:
   }
 
