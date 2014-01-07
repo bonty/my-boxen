@@ -104,10 +104,13 @@ class people::bonty {
   # homebrew
   package {
     [
+      'coreutils',
       'git-flow',
       'lv',
-      'memcached',
       'mercurial',
+      'mobile-shell',
+
+      'memcached',
       'mysql',
       'redis',
       'source-highlight',
@@ -116,12 +119,12 @@ class people::bonty {
       'tmux',
       'tree',
       'wget',
+
+      # aws
       'ec2-ami-tools',
       'ec2-api-tools',
       'elb-tools',
       'rds-command-line-tools',
-
-      'mobile-shell',
 
       # perl
       'plenv',
