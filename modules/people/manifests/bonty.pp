@@ -242,9 +242,9 @@ class people::bonty {
     'GraffitiPot':
       source => 'http://crystaly.com/graffitipot/GraffitiPot_1.1.zip',
       provider => compressed_app;
-    # 'ATOK':
-    #   source => 'http://www5.justsystem.co.jp/download/atok/ut/mac/at26try.dmg',
-    #   provider => pkgdmg;
+    'GoogleJapaneseInput':
+      source => "http://dl.google.com/japanese-ime/latest/GoogleJapaneseInput.dmg",
+      provider => pkgdmg;
     'PCKeyboardHack':
       source => 'https://pqrs.org/macosx/keyremap4macbook/files/PCKeyboardHack-10.4.0.dmg',
       provider => pkgdmg;
