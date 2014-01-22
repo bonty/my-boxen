@@ -11,6 +11,7 @@ class people::bonty {
   include iterm2::stable
   include istatmenus4
   include hipchat
+  include sourcetree
   include skype
   include sequel_pro
   include virtualbox
