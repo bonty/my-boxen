@@ -252,5 +252,8 @@ class people::bonty {
     'Reflector':
       source => 'http://download.airsquirrels.com/Reflector/Mac/Reflector.dmg',
       provider => appdmg;
+    'Amethyst':
+      source => 'http://ianyh.com/amethyst/versions/Amethyst-0.8.3.zip',
+      provider => compressed_app;
   }
 }
