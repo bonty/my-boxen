@@ -144,6 +144,11 @@ GITHUBTARBALL
     skype (1.0.7)
 
 GITHUBTARBALL
+  remote: boxen/puppet-sourcetree
+  specs:
+    sourcetree (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-sudo
   specs:
     sudo (1.0.0)
@@ -204,6 +209,7 @@ DEPENDENCIES
   ruby (= 6.7.2)
   sequel_pro (= 1.0.1)
   skype (= 1.0.7)
+  sourcetree (= 1.0.0)
   stdlib (= 4.1.0)
   sudo (= 1.0.0)
   vagrant (= 3.0.0)
