@@ -9,7 +9,6 @@ class people::bonty {
   include keyremap4macbook
   include java
   include eclipse::java
-  include eclipse::cpp
   include android::sdk
   include android::ndk
   include android::studio
