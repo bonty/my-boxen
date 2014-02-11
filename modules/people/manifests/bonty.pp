@@ -8,6 +8,10 @@ class people::bonty {
   include firefox
   include keyremap4macbook
   include java
+  include eclipse::java
+  include android::sdk
+  include android::ndk
+  include android::studio
   include iterm2::stable
   include istatmenus4
   include hipchat
