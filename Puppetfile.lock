@@ -1,4 +1,14 @@
 GITHUBTARBALL
+  remote: bonty/puppet-android
+  specs:
+    android (1.1.2)
+
+GITHUBTARBALL
+  remote: bonty/puppet-eclipse
+  specs:
+    eclipse (2.3.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-alfred
   specs:
     alfred (1.1.7)
@@ -180,12 +190,14 @@ GITHUBTARBALL
 
 DEPENDENCIES
   alfred (= 1.1.7)
+  android (= 1.1.2)
   appcleaner (= 1.0.0)
   better_touch_tools (= 1.0.0)
   boxen (= 3.3.4)
   chrome (= 1.1.2)
   dnsmasq (= 1.0.0)
   dropbox (= 1.2.0)
+  eclipse (= 2.3.1)
   firefox (= 1.1.5)
   foreman (= 1.0.0)
   gcc (= 2.0.1)
